@@ -6,6 +6,8 @@ body{
     font-family: sans-serif;
 }
 
+/* Navbar */
+
 h3{
     color: white;
 }
@@ -27,6 +29,9 @@ h3{
     text-transform: uppercase;
 }
 
+
+/* Search Container */
+
 .topnav .search-container {
     float: right;
 }
@@ -47,4 +52,26 @@ input{
     height: 100%;
     width: 100%;
     padding: 6px 9px;
+    text-align: center;
+}
+
+/* Movie Card */
+
+.thumbnail{
+    height: 350px;
+    width: 280px;
+    border-radius: 19px;
+}
+
+.column{
+    float: left;
+    width: 25%;
+    padding:10px 10px;
+}
+
+.card{
+    border-radius: 19px;
+    padding: 15px;
+    text-align: center;
+    background-color: #151f30;
 }
