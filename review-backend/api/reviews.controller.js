@@ -24,7 +24,7 @@ export default class ReviewsController {
     static async apiGetReview(req, res, next) {
         try {
             let id = req.params.id || {}
-            let review = await ReviewsDAO.GetReview(id)
+            let review = await ReviewsDAO.getReview(id)
             if (!review) {
                 res.status(404).json({ error: "not found" })
                 return
