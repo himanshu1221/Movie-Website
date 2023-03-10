@@ -47,7 +47,7 @@ function returnMovies(url) {
 
                 // adding dynamic data inside a card 
 
-                title.innerHTML = `${element.title}`;
+                title.innerHTML = `${element.title}<br><a href="movie.html?id=${element.id}&title=${element.title}">Reviews</a>`;
                 image.src = IMG_PATH + element.poster_path;
                 center.appendChild(image);
                 div_card.appendChild(center);
